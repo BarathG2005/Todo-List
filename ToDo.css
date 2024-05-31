@@ -1,0 +1,121 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+img{
+    position: relative;
+    top: 10px;
+    height: 50px;
+    width: 40px;
+}
+.continer{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(190, 186, 186, 0.5);
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    align-items: center;
+    box-shadow: 25px 25px 75px rgb(0, 0, 0 , 0.25);
+
+    
+}
+h3{
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+input{
+    padding: 13px;
+    width: 400px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(239, 239, 239);
+
+}
+
+button{
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 5px;
+    background-color: rgb(255, 166, 0);
+}
+button:hover {
+    background-color:rgb(255, 183, 50);
+}
+button:active{
+    background-color: rgb(232, 157, 17);
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: none;
+
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+   
+}
+#complete{
+    border-radius:50% ;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(74, 200, 65);
+    position: relative;
+    left: 350px;
+}
+
+#task{
+    padding: 6px;
+    
+    border-bottom: blue;
+    box-shadow: 0px 0px 25px(0,0,0.5);
+
+}
+#delete{
+    background-color: red;
+    border-radius:50% ;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 360px;
+}
+span{
+    width: 100px;
+    position: fixed;
+    
+}
+
+
+
+.completed{
+    text-decoration: line-through;
+    color:rgb(153, 152, 152);
+    #complete{
+        background-color: rgb(139, 228, 139);
+    }
+}
+body{
+    background:url("b.png");
+   background-size:100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
